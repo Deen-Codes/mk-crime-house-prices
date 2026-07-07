@@ -1,0 +1,12 @@
+# Rebuildable artefacts — regenerate with the scripts
+data/mk_analysis.db
+data/raw/crime/*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS noise
+.DS_Store
+Thumbs.db
