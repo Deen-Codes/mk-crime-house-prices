@@ -5,6 +5,9 @@ An end-to-end analysis of 3,170 property sales (HM Land Registry) and 26,650
 street-level crimes (police.uk) across 17 MK postcode districts, using Python,
 SQL, Excel and Power BI.
 
+**[→ Live interactive dashboard](https://deen-codes.github.io/mk-crime-house-prices/)**
+(GitHub Pages, built from `docs/index.html`)
+
 > **Headline:** districts with more recorded crime sell for less. The
 > correlation between total crimes and median sale price across districts is
 > **−0.62** — a strong negative relationship, though not a causal one (see
