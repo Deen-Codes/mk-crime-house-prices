@@ -10,3 +10,6 @@ __pycache__/
 # OS noise
 .DS_Store
 Thumbs.db
+
+# Local build notes — never published
+_build_notes/
