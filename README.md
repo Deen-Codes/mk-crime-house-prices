@@ -3,7 +3,7 @@
 **Do house prices track street crime across Milton Keynes postcode districts?**
 An end-to-end analysis of 3,170 property sales (HM Land Registry) and 26,650
 street-level crimes (police.uk) across 17 MK postcode districts, using Python,
-SQL, Excel and Power BI.
+SQL, Excel and Tableau.
 
 **[→ Live interactive dashboard](https://deen-codes.github.io/mk-crime-house-prices/)**
 (GitHub Pages, built from `docs/index.html`)
@@ -55,8 +55,8 @@ scripts/02_fetch_crime.py     police.uk API, 17 outcodes x 12 months -> data/raw
 scripts/03_clean_and_join.py  cleaning log + the outcode-level join -> data/processed/
 scripts/04_build_database.py  SQLite database for the SQL analysis -> data/
 sql/analysis_queries.sql      10 analysis questions (joins, CTEs, window functions)
-excel/                        pivot-table workbook (see excel/INSTRUCTIONS.md)
-powerbi/                      dashboard (see powerbi/INSTRUCTIONS.md)
+mk_analysis.xlsx              Excel workbook: formula-driven pivots, lookups, charts
+docs/index.html               interactive dashboard (GitHub Pages, link above)
 ```
 
 Reproduce everything:
